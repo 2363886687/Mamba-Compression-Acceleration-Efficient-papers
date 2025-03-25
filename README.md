@@ -2,7 +2,7 @@
 ## mamba compression
 
 ### Quantization
-PTQ4VM（https://github.com/YoungHyun197/ptq4vm）
+PTQ4VM https://github.com/YoungHyun197/ptq4vm
 
 ### Token reduction
 
