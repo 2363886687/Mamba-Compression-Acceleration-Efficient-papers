@@ -1,5 +1,5 @@
-# mamba-compression-acceleration-efficient-papers
-## mamba compression
+# Mamba-Compression-Acceleration-Efficient-papers
+## Mamba Compression
 
 ### Token reduction
 R-MeeTo 
