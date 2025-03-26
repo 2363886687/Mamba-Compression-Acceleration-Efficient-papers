@@ -63,7 +63,7 @@ https://arxiv.org/abs/2408.06966
 Learning Dynamic Brain Network Representation  Based on Graph Mamba Architecture (BIBM 2024)
 https://github.com/tokamak-wang/brain-gm
 
-### Application
+## Application
 CleanUMamba: A Compact Mamba Network for  Speech Denoising using Channel Pruning
 https://github.com/lab-emi/CleanUMamba
 
