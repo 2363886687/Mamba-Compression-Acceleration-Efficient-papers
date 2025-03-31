@@ -43,7 +43,7 @@ https://github.com/enyac-group/Quamba
 ### Structual Pruning
 :rocket:Mamba-Shedder
 https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning/tree/main/Mamba-Shedder
-Following method BlockPuner, which is used in Transformer (LLMs) structual pruning.
+Following method BlockPuner, which is used in Transformer (LLMs) structual pruning. They deploy experiments in Mamba-1, Mamba-2, Mamba+Transformer, and Hymba. They prune components and subcomponents in different architectures and explore various structural pruning strategies of different granularities.
 
 
 🔥:BlockPruner:
