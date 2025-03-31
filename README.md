@@ -43,6 +43,12 @@ https://github.com/enyac-group/Quamba
 ### Structual Pruning
 :rocket:Mamba-Shedder
 https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning/tree/main/Mamba-Shedder
+Following method BlockPuner, which is used in Transformer (LLMs) structual pruning.
+
+
+🔥:BlockPruner:
+https://github.com/MrGGLS/BlockPruner
+BlockPruner is a way to calculate the importance of blocks and remove the block with the lowest score iteratively in Transformer. It divides the Transformer architecture into multi-head attention (MHA) & multi-layer perceptron (MLP) blocks. It uses Perplexity as the importance metric tested in a sequence of words.
 
 
 
