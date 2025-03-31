@@ -6,6 +6,7 @@
 https://github.com/NUS-HPC-AI-Lab/R-MeeTo
 
   Token merging + Re-training
+  
   Inspired by ToMe, in the token merging stage, this paper first divides tokens into odd and even sequence, then calculate their distance, and finally merge the most relevent r pairs. The Retraining stage extremely quickly restore the accuracy of the token merged model.
 
 :rocket:Famba-V （ECCV 2024）
