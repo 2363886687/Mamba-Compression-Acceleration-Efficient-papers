@@ -105,3 +105,7 @@ MambaMIM: Pre-training Mamba with State Space Token-interpolation
 
 
 ## Theory
+🚀:The Hidden Attention of Mamba Models
+
+https://github.com/AmeenAli/HiddenMambaAttn
+
