@@ -22,9 +22,12 @@ https://github.com/ZLKong/ToP-ViM
 
 https://github.com/wuyushuwys/ToR_SSM
 
-🚀:LATIM: Measuring Latent Token-to-Token Interactions in Mamba Models
+⭐:LATIM: Measuring Latent Token-to-Token Interactions in Mamba Models
 
 https://github.com/deep-spin/latim
+
+They propose a method for understanding Mamba process on token-level. They calculate "Token-to-Token Importance" from an attention decomposition perspective intrigued by similar works in Transformer. The experiment is conducted in field of language models.
+
 
 ### Structual Pruning
 :rocket:Mamba-Shedder
@@ -102,4 +105,3 @@ MambaMIM: Pre-training Mamba with State Space Token-interpolation
 
 
 ## Theory
-
