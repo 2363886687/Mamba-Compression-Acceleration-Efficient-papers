@@ -60,7 +60,7 @@ https://github.com/Zyphra/BlackMamba
 
 https://jmlr.org/papers/v23/21-0998.html
 
-### Quantization
+## Quantization
 :rocket:OUROMAMBA
 https://arxiv.org/abs/2503.10959
 
