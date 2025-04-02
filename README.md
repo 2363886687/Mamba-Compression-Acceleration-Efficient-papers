@@ -49,10 +49,12 @@ https://arxiv.org/abs/2502.15260
 https://github.com/kyegomez/MoE-Mamba
 
 Following Switch Transformers and BlackMamba, they did a lot of experiments on Moe-Mamba, Vanilla Mamba, and Transformer-Moe.
-
+"MoE-Mamba needs 2.35× fewer training steps to reach the same performance as Mamba."
 🔥BlackMamba:
 
 https://github.com/Zyphra/BlackMamba
+
+BlackMamba replaces "both the MLP layer in a transformer with an expert layer, and the attention layer with a mamba SSM layer."
 
 🔥Switch Transformers
 
