@@ -20,25 +20,6 @@ https://github.com/ZLKong/ToP-ViM
 :rocket:Rethinking Token Reduction for State Space Models
 https://github.com/wuyushuwys/ToR_SSM
 
-### Quantization
-:rocket:OUROMAMBA
-https://arxiv.org/abs/2503.10959
-
-:rocket:PTQ4VM 
-https://github.com/YoungHyun197/ptq4vm
-
-
-:rocket:Bi-Mamba: Towards Accurate 1-Bit State Space Models
-https://github.com/Tangshengku/Bi-Mamba
-
-:rocket:Mamba-PTQ: Outlier Channels in Recurrent Large Language Models
-https://arxiv.org/abs/2407.12397
-
-:rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
-https://arxiv.org/abs/2501.16738
-
-:rocket:Quamba
-https://github.com/enyac-group/Quamba
 
 
 ### Structual Pruning
@@ -77,6 +58,25 @@ https://github.com/Zyphra/BlackMamba
 
 https://jmlr.org/papers/v23/21-0998.html
 
+### Quantization
+:rocket:OUROMAMBA
+https://arxiv.org/abs/2503.10959
+
+:rocket:PTQ4VM 
+https://github.com/YoungHyun197/ptq4vm
+
+
+:rocket:Bi-Mamba: Towards Accurate 1-Bit State Space Models
+https://github.com/Tangshengku/Bi-Mamba
+
+:rocket:Mamba-PTQ: Outlier Channels in Recurrent Large Language Models
+https://arxiv.org/abs/2407.12397
+
+:rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
+https://arxiv.org/abs/2501.16738
+
+:rocket:Quamba
+https://github.com/enyac-group/Quamba
 
 ## Dynamic Network 
 :rocket:DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
@@ -93,3 +93,7 @@ https://github.com/tokamak-wang/brain-gm
 https://github.com/lab-emi/CleanUMamba
 
 MambaMIM: Pre-training Mamba with State Space Token-interpolation
+
+
+## Theory
+
