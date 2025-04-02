@@ -15,12 +15,16 @@ https://github.com/AIoT-MLSys-Lab/Famba-V
 &emsp;Also based on ToMe, this paper proposes a suit of cross-layer choice strategies in Vim.
 
 :rocket:Exploring Token Pruning in Vision State Space Models
+
 https://github.com/ZLKong/ToP-ViM
 
 :rocket:Rethinking Token Reduction for State Space Models
+
 https://github.com/wuyushuwys/ToR_SSM
 
+🚀:LATIM: Measuring Latent Token-to-Token Interactions in Mamba Models
 
+https://github.com/deep-spin/latim
 
 ### Structual Pruning
 :rocket:Mamba-Shedder
