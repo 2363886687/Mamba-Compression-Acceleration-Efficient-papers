@@ -7,12 +7,12 @@ https://github.com/NUS-HPC-AI-Lab/R-MeeTo
 
 &emsp;  Token merging + Re-training
   
-  Inspired by ToMe, in the token merging stage, this paper first divides tokens into odd and even sequence, then calculate their distance, and finally merge the most relevent r pairs. The Retraining stage extremely quickly restore the accuracy of the token merged model.
+&emsp;  Inspired by ToMe, in the token merging stage, this paper first divides tokens into odd and even sequence, then calculate their distance, and finally merge the most relevent r pairs. The Retraining stage extremely quickly restore the accuracy of the token merged model.
 
 :rocket:Famba-V （ECCV 2024）
 https://github.com/AIoT-MLSys-Lab/Famba-V
 
-Also based on ToMe, this paper proposes a suit of cross-layer choice strategies in Vim.
+&emsp;Also based on ToMe, this paper proposes a suit of cross-layer choice strategies in Vim.
 
 :rocket:Exploring Token Pruning in Vision State Space Models
 https://github.com/ZLKong/ToP-ViM
@@ -27,14 +27,14 @@ https://github.com/wuyushuwys/ToR_SSM
 
 https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning/tree/main/Mamba-Shedder
 
-Following method BlockPuner, which is used in Transformer (LLMs) structual pruning. They deploy experiments in Mamba-1, Mamba-2, Mamba+Transformer, and Hymba. They prune components and subcomponents in different architectures and explore various structural pruning strategies of different granularities.
+&emsp;Following method BlockPuner, which is used in Transformer (LLMs) structual pruning. They deploy experiments in Mamba-1, Mamba-2, Mamba+Transformer, and Hymba. They prune components and subcomponents in different architectures and explore various structural pruning strategies of different granularities.
 
 
 🔥:BlockPruner:
 
 https://github.com/MrGGLS/BlockPruner
 
-BlockPruner is a way to calculate the importance of blocks and remove the block with the lowest score iteratively in Transformer. It divides the Transformer architecture into multi-head attention (MHA) & multi-layer perceptron (MLP) blocks. It uses Perplexity as the importance metric tested in a sequence of words.
+&emsp;BlockPruner is a way to calculate the importance of blocks and remove the block with the lowest score iteratively in Transformer. It divides the Transformer architecture into multi-head attention (MHA) & multi-layer perceptron (MLP) blocks. It uses Perplexity as the importance metric tested in a sequence of words.
 
 
 
@@ -48,13 +48,13 @@ https://arxiv.org/abs/2502.15260
 
 https://github.com/kyegomez/MoE-Mamba
 
-Following Switch Transformers and BlackMamba, they did a lot of experiments on Moe-Mamba, Vanilla Mamba, and Transformer-Moe.
+&emsp;Following Switch Transformers and BlackMamba, they did a lot of experiments on Moe-Mamba, Vanilla Mamba, and Transformer-Moe.
 "MoE-Mamba needs 2.35× fewer training steps to reach the same performance as Mamba."
 🔥BlackMamba:
 
 https://github.com/Zyphra/BlackMamba
 
-BlackMamba replaces "both the MLP layer in a transformer with an expert layer, and the attention layer with a mamba SSM layer."
+&emsp;BlackMamba replaces "both the MLP layer in a transformer with an expert layer, and the attention layer with a mamba SSM layer."
 
 🔥Switch Transformers
 
