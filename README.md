@@ -64,7 +64,19 @@ https://arxiv.org/abs/2502.15260
 
 ## Efficient Mamba
 :rocket:MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts
+
 https://github.com/kyegomez/MoE-Mamba
+
+Following Switch Transformers and BlackMamba, they did a lot of experiments on Moe-Mamba, Vanilla Mamba, and Transformer-Moe.
+
+🔥BlackMamba:
+
+https://github.com/Zyphra/BlackMamba
+
+🔥Switch Transformers
+
+https://jmlr.org/papers/v23/21-0998.html
+
 
 ## Dynamic Network 
 :rocket:DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
