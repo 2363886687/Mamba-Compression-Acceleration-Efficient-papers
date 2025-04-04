@@ -73,6 +73,10 @@ https://github.com/AmeenAli/HiddenMambaAttn
 
 Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks.
 
+🚀:Explaining Modern Gated-Linear RNNs via a Unified Implicit Attention Formulation ICLR 2025
+https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/tree/main
+Following the last paper, this work contains more implementation work on sub-quadratic architectures with a proposed improved attention matrics. They implement perturbation tests for vision and NLP.
+
 ## Quantization
 :rocket:OUROMAMBA
 https://arxiv.org/abs/2503.10959
