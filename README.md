@@ -66,6 +66,12 @@ https://github.com/Zyphra/BlackMamba
 🔥Switch Transformers
 
 https://jmlr.org/papers/v23/21-0998.html
+## Theory
+🚀:The Hidden Attention of Mamba Models
+
+https://github.com/AmeenAli/HiddenMambaAttn
+
+Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks.
 
 ## Quantization
 :rocket:OUROMAMBA
@@ -104,8 +110,5 @@ https://github.com/lab-emi/CleanUMamba
 MambaMIM: Pre-training Mamba with State Space Token-interpolation
 
 
-## Theory
-🚀:The Hidden Attention of Mamba Models
 
-https://github.com/AmeenAli/HiddenMambaAttn
 
