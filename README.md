@@ -44,7 +44,18 @@ https://github.com/MrGGLS/BlockPruner
 &emsp;BlockPruner is a way to calculate the importance of blocks and remove the block with the lowest score iteratively in Transformer. It divides the Transformer architecture into multi-head attention (MHA) & multi-layer perceptron (MLP) blocks. It uses Perplexity as the importance metric tested in a sequence of words.
 
 
+## Theory
+🚀:The Hidden Attention of Mamba Models
 
+https://github.com/AmeenAli/HiddenMambaAttn
+
+&emsp; Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. They demonstrate the application to Attention Rollout and Attention-based Attribution, which is also very useful in our work. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks.
+
+🚀:Explaining Modern Gated-Linear RNNs via a Unified Implicit Attention Formulation ICLR 2025
+
+https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/tree/main
+
+&emsp; Following the last paper, this work contains more implementation work on sub-quadratic architectures with a proposed improved attention matrics. They implement perturbation tests for vision and NLP.
 
 ## Mamba Acceleration
 :rocket:LightMamba: Efficient Mamba Acceleration on  FPGA with Quantization and Hardware Co-design
@@ -66,16 +77,7 @@ https://github.com/Zyphra/BlackMamba
 🔥Switch Transformers
 
 https://jmlr.org/papers/v23/21-0998.html
-## Theory
-🚀:The Hidden Attention of Mamba Models
 
-https://github.com/AmeenAli/HiddenMambaAttn
-
-Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks.
-
-🚀:Explaining Modern Gated-Linear RNNs via a Unified Implicit Attention Formulation ICLR 2025
-https://github.com/Itamarzimm/UnifiedImplicitAttnRepr/tree/main
-Following the last paper, this work contains more implementation work on sub-quadratic architectures with a proposed improved attention matrics. They implement perturbation tests for vision and NLP.
 
 ## Quantization
 :rocket:OUROMAMBA
