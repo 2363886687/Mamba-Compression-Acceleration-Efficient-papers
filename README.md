@@ -22,6 +22,8 @@ https://github.com/ZLKong/ToP-ViM
 
 https://github.com/wuyushuwys/ToR_SSM
 
+&emsp; Combining token merging and pruning, they have taken both token similarities and importance score into consideration. They evaluate token importance by aggregating the clipped values in channels of each token. Their algorithm can be concluded as first divide all tokens into two groups based on their importance, and then merge the most similar token pairs.
+
 ⭐:LATIM: Measuring Latent Token-to-Token Interactions in Mamba Models
 
 https://github.com/deep-spin/latim
