@@ -51,7 +51,7 @@ https://github.com/MrGGLS/BlockPruner
 
 https://github.com/AmeenAli/HiddenMambaAttn
 
-&emsp; Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. They demonstrate the application to Attention Rollout and Attention-based Attribution, which is also very useful in our work. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks. But they only leverage the row of the final map associated with CLS token, maybe negelecting some useful information of other token interactions.
+&emsp; Very important essay to understand the attention mechnism in Mamba and SSM Structures. They derived a data-controlled attention matric from SSM formulas and explains the difference between Mamba and Transformer from attension perspective in detail. They demonstrate the application to Attention Rollout and Attention-based Attribution, which is also very useful in our work. Hotplots visualize the sequence dependencies of Mamba and Transformer in Vision and NLP tasks. But they only leverage the row of the final map associated with CLS token, maybe negelecting some useful information of other token interactions. Their perturbation experiments involve masking pixels, which can be another way of evaluating importance of tokens.
 
 🚀:Explaining Modern Gated-Linear RNNs via a Unified Implicit Attention Formulation ICLR 2025
 
