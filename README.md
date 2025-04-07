@@ -98,6 +98,8 @@ https://arxiv.org/abs/2407.12397
 :rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
 https://arxiv.org/abs/2501.16738
 
+&emsp; They compare similarity between FP layers and Quantizaed layers to determine a most similar scale from a pretrained search space. To deal with outliers, they use k-means clustering on both channel (perfroming good for convolutional layers) and token levels (performing good for linear projection layers because in these layers the outliers are little relationship with channels), enabling each group determined with a distinct scale to represent the outliers more accurately. Some hidden states of SSM have extreme large values, but the researchers find different channels share similar distributions. So they decompose the hidden states into three rank-1 vectors to approximate the hidden states. Finally, they smoothen h by converting the amplitude of original hidden states to A, B and C through "reparameterizing".
+
 :rocket:Quamba
 https://github.com/enyac-group/Quamba
 
