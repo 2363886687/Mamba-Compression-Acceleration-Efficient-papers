@@ -73,6 +73,7 @@ https://github.com/kyegomez/MoE-Mamba
 
 &emsp;Following Switch Transformers and BlackMamba, they did a lot of experiments on Moe-Mamba, Vanilla Mamba, and Transformer-Moe.
 "MoE-Mamba needs 2.35× fewer training steps to reach the same performance as Mamba."
+
 🔥BlackMamba:
 
 https://github.com/Zyphra/BlackMamba
