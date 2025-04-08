@@ -14,9 +14,12 @@ https://github.com/AIoT-MLSys-Lab/Famba-V
 
 &emsp;Also based on ToMe, this paper proposes a suit of cross-layer choice strategies in Vim.
 
-:rocket:Exploring Token Pruning in Vision State Space Models
+:rocket:Exploring Token Pruning in Vision State Space Models（NeurIPS 2024）
 
 https://github.com/ZLKong/ToP-ViM
+
+They recognize the failure of using traditional token pruning in SSMs is the naive token reduction will disrupt the sequence relationship between neighbours. They propose the pruning-aware hidden state alignment method to maintain the hidden states flow and a token importance evaluation metric for pruning.
+
 
 :rocket:Rethinking Token Reduction for State Space Models
 
