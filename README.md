@@ -1,7 +1,6 @@
 # Mamba-Compression-Acceleration-Efficient-papers
-## Mamba Compression
 
-### Token reduction
+## Token reduction
 :rocket:R-MeeTo 
 https://github.com/NUS-HPC-AI-Lab/R-MeeTo
 
@@ -32,9 +31,35 @@ https://github.com/wuyushuwys/ToR_SSM
 https://github.com/deep-spin/latim
 
 They propose a method for understanding Mamba process on token-level. They calculate "Token-to-Token Importance" from an attention decomposition perspective intrigued by similar works in Transformer. The experiment is conducted in field of language models.
+## Quantization
+:rocket: MambaQuant ICLR2025
+
+https://github.com/MambaQuant/MambaQuant
+
+&emsp; They propose an enhanced Hadamard matrices to overcome three kinds of hard layers in Mamba: Gate Projection, Output Projection and Matrix Multiplication, which show extreme unequal outliers across channels. Generally, they convert the unequal variances of activations to the enhanced Hadamard matrices so the activations will be relatively uniformed. Secondly, they improved the SiLU activation into S-SiLU to deal with Projection and Matmul furthermore. In detail, an introduced smoothing parameter s first fuses the projection weights and it will be absorbed later so that the channel variances are lowered.
+
+:rocket:OUROMAMBA
+https://arxiv.org/abs/2503.10959
+
+:rocket:PTQ4VM 
+https://github.com/YoungHyun197/ptq4vm
 
 
-### Structual Pruning
+:rocket:Bi-Mamba: Towards Accurate 1-Bit State Space Models
+https://github.com/Tangshengku/Bi-Mamba
+
+:rocket:Mamba-PTQ: Outlier Channels in Recurrent Large Language Models
+https://arxiv.org/abs/2407.12397
+
+:rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
+https://arxiv.org/abs/2501.16738
+
+&emsp; They compare similarity between FP layers and Quantizaed layers to determine a most similar scale from a pretrained search space. To deal with outliers, they use k-means clustering on both channel (perfroming good for convolutional layers) and token levels (performing good for linear projection layers because in these layers the outliers are little relationship with channels), enabling each group determined with a distinct scale to represent the outliers more accurately. Some hidden states of SSM have extreme large values, but the researchers find different channels share similar distributions. So they decompose the hidden states into three rank-1 vectors to approximate the hidden states. Finally, they smoothen h by converting the amplitude of original hidden states to A, B and C through "reparameterizing".
+
+:rocket:Quamba
+https://github.com/enyac-group/Quamba
+
+## Structual Pruning
 :rocket:Mamba-Shedder
 
 https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning/tree/main/Mamba-Shedder
@@ -85,33 +110,7 @@ https://github.com/Zyphra/BlackMamba
 https://jmlr.org/papers/v23/21-0998.html
 
 
-## Quantization
-:rocket: MambaQuant ICLR2025
 
-https://github.com/MambaQuant/MambaQuant
-
-&emsp; They propose an enhanced Hadamard matrices to overcome three kinds of hard layers in Mamba: Gate Projection, Output Projection and Matrix Multiplication, which show extreme unequal outliers across channels. Generally, they convert the unequal variances of activations to the enhanced Hadamard matrices so the activations will be relatively uniformed. Secondly, they improved the SiLU activation into S-SiLU to deal with Projection and Matmul furthermore. In detail, an introduced smoothing parameter s first fuses the projection weights and it will be absorbed later so that the channel variances are lowered.
-
-:rocket:OUROMAMBA
-https://arxiv.org/abs/2503.10959
-
-:rocket:PTQ4VM 
-https://github.com/YoungHyun197/ptq4vm
-
-
-:rocket:Bi-Mamba: Towards Accurate 1-Bit State Space Models
-https://github.com/Tangshengku/Bi-Mamba
-
-:rocket:Mamba-PTQ: Outlier Channels in Recurrent Large Language Models
-https://arxiv.org/abs/2407.12397
-
-:rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
-https://arxiv.org/abs/2501.16738
-
-&emsp; They compare similarity between FP layers and Quantizaed layers to determine a most similar scale from a pretrained search space. To deal with outliers, they use k-means clustering on both channel (perfroming good for convolutional layers) and token levels (performing good for linear projection layers because in these layers the outliers are little relationship with channels), enabling each group determined with a distinct scale to represent the outliers more accurately. Some hidden states of SSM have extreme large values, but the researchers find different channels share similar distributions. So they decompose the hidden states into three rank-1 vectors to approximate the hidden states. Finally, they smoothen h by converting the amplitude of original hidden states to A, B and C through "reparameterizing".
-
-:rocket:Quamba
-https://github.com/enyac-group/Quamba
 
 ## Dynamic Network 
 :rocket:DG-Mamba: Robust and Efficient Dynamic Graph Structure Learning with Selective State Space Models
