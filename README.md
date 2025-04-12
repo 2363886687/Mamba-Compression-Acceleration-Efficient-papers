@@ -88,6 +88,8 @@ https://jmlr.org/papers/v23/21-0998.html
 ## Quantization
 :rocket: MambaQuant ICLR2025
 
+https://github.com/MambaQuant/MambaQuant
+
 &emsp; They propose an enhanced Hadamard matrices to overcome three kinds of hard layers in Mamba: Gate Projection, Output Projection and Matrix Multiplication, which show extreme unequal outliers across channels. Generally, they convert the unequal variances of activations to the enhanced Hadamard matrices so the activations will be relatively uniformed. Secondly, they improved the SiLU activation into S-SiLU to deal with Projection and Matmul furthermore. In detail, an introduced smoothing parameter s first fuses the projection weights and it will be absorbed later so that the channel variances are lowered.
 
 :rocket:OUROMAMBA
