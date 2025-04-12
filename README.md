@@ -39,7 +39,10 @@ https://github.com/MambaQuant/MambaQuant
 &emsp; They propose an enhanced Hadamard matrices to overcome three kinds of hard layers in Mamba: Gate Projection, Output Projection and Matrix Multiplication, which show extreme unequal outliers across channels. Generally, they convert the unequal variances of activations to the enhanced Hadamard matrices so the activations will be relatively uniformed. Secondly, they improved the SiLU activation into S-SiLU to deal with Projection and Matmul furthermore. In detail, an introduced smoothing parameter s first fuses the projection weights and it will be absorbed later so that the channel variances are lowered.
 
 :rocket:OUROMAMBA
+
 https://arxiv.org/abs/2503.10959
+
+Named after Ouroboros, they found a data-free post quantization method to quantize the Vision Mamba Models based on the calibration data which is actually synthesized by the model itself. Due to the forgetfulness nature of Mamba model, naively generate photos through VMMs result in noisy pictures. To compensate this, the authors propose an enhanced implicit attention mechanism which feels spatial information by aggregating neighbourhoods in patches around the anchor token in a weighted way, which is controlled by Δ, reflecting the information contained in each neighbouthood token. The second contribution is they dynamically detect outliers of activations and assign different types of activation distribution (inliers & outlier) with mixed precision quantization on a regular timestep.
 
 :rocket:PTQ4VM 
 https://github.com/YoungHyun197/ptq4vm
