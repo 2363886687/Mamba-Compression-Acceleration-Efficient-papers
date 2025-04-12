@@ -1,10 +1,10 @@
 # Mamba-Compression-Acceleration-Efficient-papers
 
 ## Token reduction
-|------------|---------------|
-| **标题1**  | 数据1         |
-| **标题2**  | 数据2         |
-| **标题3**  | 数据3         |
+| 表头1        | 表头2          |  # 表头行
+|-------------|----------------|  # 分隔符行（定义对齐）
+| 内容1       | 内容2          |  # 数据行
+| 内容3       | 内容4          |
 
 :rocket:R-MeeTo 
 https://github.com/NUS-HPC-AI-Lab/R-MeeTo
