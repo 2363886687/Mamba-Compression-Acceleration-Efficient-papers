@@ -79,6 +79,11 @@ https://github.com/MrGGLS/BlockPruner
 
 
 ## Theory
+🚀:MambaVC: Learned Visual Compression with Selective State Spaces
+
+https://github.com/QinSY123/2024-MambaVC
+
+
 🚀:The Hidden Attention of Mamba Models
 
 https://github.com/AmeenAli/HiddenMambaAttn
