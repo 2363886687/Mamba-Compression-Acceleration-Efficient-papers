@@ -1,7 +1,11 @@
 # Mamba-Compression-Acceleration-Efficient-papers
 
 ## Token reduction
-|-----------|
+|------------|---------------|
+| **标题1**  | 数据1         |
+| **标题2**  | 数据2         |
+| **标题3**  | 数据3         |
+
 :rocket:R-MeeTo 
 https://github.com/NUS-HPC-AI-Lab/R-MeeTo
 
