@@ -43,7 +43,7 @@ https://github.com/MambaQuant/MambaQuant
 
 https://arxiv.org/abs/2503.10959
 
-Named after Ouroboros, they found a data-free post quantization method to quantize the Vision Mamba Models based on the calibration data which is actually synthesized by the model itself. Due to the forgetfulness nature of Mamba model, naively generate photos through VMMs result in noisy pictures. To compensate this, the authors propose an enhanced implicit attention mechanism which feels spatial information by aggregating neighbourhoods in patches around the anchor token in a weighted way, which is controlled by Δ, reflecting the information contained in each neighbouthood token. The second contribution is they dynamically detect outliers of activations and assign the different types of activation distribution (inliers & outlier) with mixed precision quantization accordingly on a regular refreshing rate, which leverage the time-vary nature of outliers across channels.
+&emsp; Named after Ouroboros, they found a data-free post quantization method to quantize the Vision Mamba Models based on the calibration data which is actually synthesized by the model itself. Due to the forgetfulness nature of Mamba model, naively generate photos through VMMs result in noisy pictures. To compensate this, the authors propose an enhanced implicit attention mechanism which feels spatial information by aggregating neighbourhoods in patches around the anchor token in a weighted way, which is controlled by Δ, reflecting the information contained in each neighbouthood token. The second contribution is they dynamically detect outliers of activations and assign the different types of activation distribution (inliers & outlier) with mixed precision quantization accordingly on a regular refreshing rate, which leverage the time-vary nature of outliers across channels.
 
 :rocket:PTQ4VM 
 https://github.com/YoungHyun197/ptq4vm
@@ -54,6 +54,8 @@ https://github.com/Tangshengku/Bi-Mamba
 
 :rocket:Mamba-PTQ: Outlier Channels in Recurrent Large Language Models
 https://arxiv.org/abs/2407.12397
+
+&emsp; This artical is a preliminary attempt in the field of Mamba PTQ. They identify the existence of outlier channels in Mamba, which is the hard part to quantize, and try SmoothQuant to transfer part of the outliers in activation to weights.
 
 :rocket:Post-Training Quantization for Vision Mamba with  k-Scaled Quantization and Reparameterization
 https://arxiv.org/abs/2501.16738
