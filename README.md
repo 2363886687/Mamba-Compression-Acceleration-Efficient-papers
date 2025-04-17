@@ -34,7 +34,7 @@ https://github.com/deep-spin/latim
 They propose a method for understanding Mamba process on token-level. They calculate "Token-to-Token Importance" from an attention decomposition perspective intrigued by similar works in Transformer. The experiment is conducted in field of language models.
 
 ## Token reduction in ViT
-:rocket Agglomerative Token Clustering ECCV 2024
+🚀 Agglomerative Token Clustering ECCV 2024
 
 They introduce a classical clustering algorithem, Agglomerative Clustering, to conduct clustering in ViT without anymore learning neither fine-tuning. This algorithm starts with every element itself as a cluster, and then these elements are combined iteratively according to some linkage function. There're 3 linkage functions used in the paper. Finally, they use a weighted average in each cluster.
 
