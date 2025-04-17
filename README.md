@@ -37,7 +37,7 @@ They propose a method for understanding Mamba process on token-level. They calcu
 
 NOT ALL PATCHES ARE WHAT YOU NEED:  EXPEDITING VISION TRANSFORMERS VIA  TOKEN REORGANIZATIONS
 
-Previous studies have shown he cls token in ViTs pays more attention to some certain class-specific tokens and neglects some irrelevant tokens to some extent. They utilizes the attentiveness characteristic of cls token to identify attentive tokens and fuse the inattentive tokens. Specifically, they compute the average attentiveness values of multiple heads as the selection creterion and use a weighted average operation to fuse the inattentive tokens.
+Previous studies have shown the cls token in ViTs pays more attention to some certain class-specific tokens and neglects some irrelevant tokens to some extent. They utilizes the attentiveness characteristic of cls token to identify attentive tokens and fuse the inattentive tokens. Specifically, they compute the average attentiveness values of multiple heads as the selection creterion and use a weighted average operation to fuse the inattentive tokens.
 
 ## Quantization
 :rocket: MambaQuant ICLR2025
