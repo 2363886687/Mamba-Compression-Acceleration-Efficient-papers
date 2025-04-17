@@ -32,6 +32,13 @@ https://github.com/wuyushuwys/ToR_SSM
 https://github.com/deep-spin/latim
 
 They propose a method for understanding Mamba process on token-level. They calculate "Token-to-Token Importance" from an attention decomposition perspective intrigued by similar works in Transformer. The experiment is conducted in field of language models.
+
+## Token reduction in ViT
+
+NOT ALL PATCHES ARE WHAT YOU NEED:  EXPEDITING VISION TRANSFORMERS VIA  TOKEN REORGANIZATIONS
+
+Previous studies have shown he cls token in ViTs pays more attention to some certain class-specific tokens and neglects some irrelevant tokens to some extent. They utilizes the attentiveness characteristic of cls token to identify attentive tokens and fuse the inattentive tokens. Specifically, they compute the average attentiveness values of multiple heads as the selection creterion and use a weighted average operation to fuse the inattentive tokens.
+
 ## Quantization
 :rocket: MambaQuant ICLR2025
 
