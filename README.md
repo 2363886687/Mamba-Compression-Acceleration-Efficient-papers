@@ -34,6 +34,10 @@ https://github.com/deep-spin/latim
 They propose a method for understanding Mamba process on token-level. They calculate "Token-to-Token Importance" from an attention decomposition perspective intrigued by similar works in Transformer. The experiment is conducted in field of language models.
 
 ## Token reduction in ViT
+PaCa-ViT: Learning Patch-to-Cluster Attention in Vision Transformers CVPR2023
+
+In order to alleviate the quadratic complexity of patch-to-patch attention in ViT, they propose token clustering to substitute the traditional patch-to-patch attention mechanism with patch-to-cluster attention. They use Clustering via Convolution and Clustering via MLP to learn the process of clustering, with every learned cluster owns similar attribute to class tokens. The process is learned end-to-end.
+
 
 NOT ALL PATCHES ARE WHAT YOU NEED:  EXPEDITING VISION TRANSFORMERS VIA  TOKEN REORGANIZATIONS ICLR2022
 
